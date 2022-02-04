@@ -4,7 +4,7 @@ from time import time
 import numpy as np
 import math
 
-conf =SparkConf().setAppName("piestimator").setMaster("local")
+conf = SparkConf().setAppName("piestimator").setMaster("local")
 sc = SparkContext(conf=conf)
 n=1000000
 
