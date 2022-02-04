@@ -5,7 +5,7 @@ Pour exécuter le programme, il faut tout d'abord ouvrir le terminal et faire la
 # Résultats selon spark et numpy :
 On a écris deux fonctions 'pi-estimator-spark' et 'pi-estimator-numpy', qui prennent un nombre n et permettent de simuler un point p de coordonnées x et y pour savoir ensuite s'il est à l'intérieur ou à l'extérieur du cercle. Voici les résultats trouvés pour 100 000 et 1 000 000 points. 
 
-<img width="547" alt="4" src="https://user-images.githubusercontent.com/94738217/152570340-7c65f9e6-ff55-4fc3-a4c0-a69243ce1e26.png">
+<img width="506" alt="4" src="https://user-images.githubusercontent.com/94738217/152570489-4e26cdea-aa44-485b-a09a-f7acbe16fa84.png">
 
 <img width="728" alt="3" src="https://user-images.githubusercontent.com/94738217/152566415-00175307-539a-4c48-ad0b-e109432dcb2d.png">
 
