@@ -1,7 +1,3 @@
-install_requires=[
-    'pyspark=={site.SPARK_VERSION}'
-    ]
-
 from pyspark import SparkContext,SparkConf
 from random import random                      # les packages
 from time import time
