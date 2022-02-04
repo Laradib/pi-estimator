@@ -7,6 +7,10 @@ On a écris deux fonctions 'pi-estimator-spark' et 'pi-estimator-numpy', qui pre
 
 <img width="728" alt="3" src="https://user-images.githubusercontent.com/94738217/152566415-00175307-539a-4c48-ad0b-e109432dcb2d.png">
 
-# Pour n = 100 000:                                                # Pour n = 1 000 000: 
+# Pour n = 100 000:                                             
 <img width="348" alt="1" src="https://user-images.githubusercontent.com/94738217/152568948-96eb62ea-27db-4793-b548-a891398ed2b4.png">   
+
+# Pour n = 1 000 000: 
 <img width="347" alt="2" src="https://user-images.githubusercontent.com/94738217/152569025-3e6c8284-511b-442d-a17d-b2cc8e8b7250.png">
+
+Si on remarque bien les résultats obtenus, on trouve que pour 100 000 nympy est plus précise que spark. On a trouvé un écart de O.O38 avec numpy alors qu'avec spark l'écart est de 0.257 donc plus grand. Mais pour 1 000 000, c'est totalement l'inverse. Avec spark il y a plus de précision qu'avec numpy. De plus, on remarque que le temps d'éxécution avec numpy est toujours mieux. Dans les deux cas, numpy est plus rapide et a une vitesse d'exécution plus élevée que celle de spark.
